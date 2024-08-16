@@ -1,0 +1,76 @@
+title: Lazy Atlantica
+originalAuthor: Shananas
+game: kh2
+description: Win the songs without doing anything. Failed text is not changed but you will still progress the story
+assets:
+#Everything else
+- method: binarc
+  name: ard/us/lm01.ard
+  multi:
+  - name: ard/fr/lm01.ard
+  - name: ard/gr/lm01.ard
+  - name: ard/it/lm01.ard
+  - name: ard/sp/lm01.ard
+  - name: ard/lm01.ard
+  source:
+  - method: areadatascript
+    name: evt
+    source:
+    - name: files/lm01evt.yml
+    type: AreaDataScript
+- method: binarc
+  name: ard/us/lm02.ard
+  multi:
+  - name: ard/fr/lm02.ard
+  - name: ard/gr/lm02.ard
+  - name: ard/it/lm02.ard
+  - name: ard/sp/lm02.ard
+  - name: ard/lm02.ard
+  source:
+  - method: areadatascript
+    name: evt
+    source:
+    - name: files/lm02evt.yml
+    type: AreaDataScript
+- method: binarc
+  name: ard/us/lm03.ard
+  multi:
+  - name: ard/fr/lm03.ard
+  - name: ard/gr/lm03.ard
+  - name: ard/it/lm03.ard
+  - name: ard/sp/lm03.ard
+  - name: ard/lm03.ard
+  source:
+  - method: areadatascript
+    name: evt
+    source:
+    - name: files/lm03evt.yml
+    type: AreaDataScript
+- method: binarc
+  name: ard/us/lm04.ard
+  multi:
+  - name: ard/fr/lm04.ard
+  - name: ard/gr/lm04.ard
+  - name: ard/it/lm04.ard
+  - name: ard/sp/lm04.ard
+  - name: ard/lm04.ard
+  source:
+  - method: areadatascript
+    name: evt
+    source:
+    - name: files/lm04evt.yml
+    type: AreaDataScript
+- method: binarc
+  name: ard/us/lm09.ard
+  multi:
+  - name: ard/fr/lm09.ard
+  - name: ard/gr/lm09.ard
+  - name: ard/it/lm09.ard
+  - name: ard/sp/lm09.ard
+  - name: ard/lm09.ard
+  source:
+  - method: areadatascript
+    name: evt
+    source:
+    - name: files/lm09evt.yml
+    type: AreaDataScript
