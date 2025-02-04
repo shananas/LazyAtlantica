@@ -88,3 +88,70 @@ assets:
     source:
     - name: msn/LM09_MS401.bdx
     type: Bdx
+#PC Remastered
+- name: remastered/msn/us/LM01_MS201.bar/US_LM01_MS201_bar0.png
+  platform: pc
+  multi:
+  - name: remastered/fr/LM01_MS201.bar/FR_LM01_MS201_bar0.png
+  - name: remastered/gr/LM01_MS201.bar/GR_LM01_MS201_bar0.png
+  - name: remastered/it/LM01_MS201.bar/IT_LM01_MS201_bar0.png
+  - name: remastered/sp/LM01_MS201.bar/SP_LM01_MS201_bar0.png
+  method: copy
+  source:
+  - name: remastered/msn/us/LM01_MS201.bar/US_LM01_MS201_bar0.png
+    type: internal
+- name: remastered/msn/us/LM02_MS102.bar/US_LM02_MS102_bar0.png
+  platform: pc
+  multi:
+  - name: remastered/fr/LM02_MS102.bar/FR_LM02_MS102_bar0.png
+  - name: remastered/gr/LM02_MS102.bar/GR_LM02_MS102_bar0.png
+  - name: remastered/it/LM02_MS102.bar/IT_LM02_MS102_bar0.png
+  - name: remastered/sp/LM02_MS102.bar/SP_LM02_MS102_bar0.png
+  method: copy
+  source:
+  - name: remastered/msn/us/LM02_MS102.bar/US_LM02_MS102_bar0.png
+    type: internal
+- name: remastered/msn/us/LM03_MS301.bar/US_LM03_MS301_bar0.png
+  platform: pc
+  multi:
+  - name: remastered/fr/LM03_MS301.bar/FR_LM03_MS301_bar0.png
+  - name: remastered/gr/LM03_MS301.bar/GR_LM03_MS301_bar0.png
+  - name: remastered/it/LM03_MS301.bar/IT_LM03_MS301_bar0.png
+  - name: remastered/sp/LM03_MS301.bar/SP_LM03_MS301_bar0.png
+  method: copy
+  source:
+  - name: remastered/msn/us/LM03_MS301.bar/US_LM03_MS301_bar0.png
+    type: internal
+- name: remastered/msn/us/LM04_MS103.bar/US_LM04_MS103_bar0.png
+  platform: pc
+  multi:
+  - name: remastered/fr/LM04_MS103.bar/FR_LM04_MS103_bar0.png
+  - name: remastered/gr/LM04_MS103.bar/GR_LM04_MS103_bar0.png
+  - name: remastered/it/LM04_MS103.bar/IT_LM04_MS103_bar0.png
+  - name: remastered/sp/LM04_MS103.bar/SP_LM04_MS103_bar0.png
+  method: copy
+  source:
+  - name: remastered/msn/us/LM04_MS103.bar/US_LM04_MS103_bar0.png
+    type: internal
+- name: remastered/msn/us/LM04_MS501.bar/US_LM04_MS501_bar0.png
+  platform: pc
+  multi:
+  - name: remastered/fr/LM04_MS501.bar/FR_LM04_MS501_bar0.png
+  - name: remastered/gr/LM04_MS501.bar/GR_LM04_MS501_bar0.png
+  - name: remastered/it/LM04_MS501.bar/IT_LM04_MS501_bar0.png
+  - name: remastered/sp/LM04_MS501.bar/SP_LM04_MS501_bar0.png
+  method: copy
+  source:
+  - name: remastered/msn/us/LM04_MS501.bar/US_LM04_MS501_bar0.png
+    type: internal
+- name: remastered/msn/us/LM09_MS401.bar/US_LM09_MS401_bar0.png
+  platform: pc
+  multi:
+  - name: remastered/fr/LM09_MS401.bar/FR_LM09_MS401_bar0.png
+  - name: remastered/gr/LM09_MS401.bar/GR_LM09_MS401_bar0.png
+  - name: remastered/it/LM09_MS401.bar/IT_LM09_MS401_bar0.png
+  - name: remastered/sp/LM09_MS401.bar/SP_LM09_MS401_bar0.png
+  method: copy
+  source:
+  - name: remastered/msn/us/LM09_MS401.bar/US_LM09_MS401_bar0.png
+    type: internal
