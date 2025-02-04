@@ -5,72 +5,86 @@ description: Win the songs without doing anything. Failed text is not changed bu
 assets:
 #Everything else
 - method: binarc
-  name: ard/us/lm01.ard
+  name: msn/us/LM01_MS201.bar
   multi:
-  - name: ard/fr/lm01.ard
-  - name: ard/gr/lm01.ard
-  - name: ard/it/lm01.ard
-  - name: ard/sp/lm01.ard
-  - name: ard/lm01.ard
+  - name: msn/fr/LM01_MS201.bar
+  - name: msn/gr/LM01_MS201.bar
+  - name: msn/it/LM01_MS201.bar
+  - name: msn/sp/LM01_MS201.bar
+  - name: msn/LM01_MS201.bar
   source:
-  - method: areadatascript
-    name: evt
+  - method: copy
+    name: ms_m
     source:
-    - name: files/lm01evt.yml
-    type: AreaDataScript
+    - name: msn/LM01_MS201.bdx
+    type: Bdx
 - method: binarc
-  name: ard/us/lm02.ard
+  name: msn/us/LM02_MS102.bar
   multi:
-  - name: ard/fr/lm02.ard
-  - name: ard/gr/lm02.ard
-  - name: ard/it/lm02.ard
-  - name: ard/sp/lm02.ard
-  - name: ard/lm02.ard
+  - name: msn/fr/LM02_MS102.bar
+  - name: msn/gr/LM02_MS102.bar
+  - name: msn/it/LM02_MS102.bar
+  - name: msn/sp/LM02_MS102.bar
+  - name: msn/LM02_MS102.bar
   source:
-  - method: areadatascript
-    name: evt
+  - method: copy
+    name: ms_m
     source:
-    - name: files/lm02evt.yml
-    type: AreaDataScript
+    - name: msn/LM02_MS102.bdx
+    type: Bdx
 - method: binarc
-  name: ard/us/lm03.ard
+  name: msn/us/LM03_MS301.bar
   multi:
-  - name: ard/fr/lm03.ard
-  - name: ard/gr/lm03.ard
-  - name: ard/it/lm03.ard
-  - name: ard/sp/lm03.ard
-  - name: ard/lm03.ard
+  - name: msn/fr/LM03_MS301.bar
+  - name: msn/gr/LM03_MS301.bar
+  - name: msn/it/LM03_MS301.bar
+  - name: msn/sp/LM03_MS301.bar
+  - name: msn/LM03_MS301.bar
   source:
-  - method: areadatascript
-    name: evt
+  - method: copy
+    name: ms_m
     source:
-    - name: files/lm03evt.yml
-    type: AreaDataScript
+    - name: msn/LM03_MS301.bdx
+    type: Bdx
 - method: binarc
-  name: ard/us/lm04.ard
+  name: msn/us/LM04_MS103.bar
   multi:
-  - name: ard/fr/lm04.ard
-  - name: ard/gr/lm04.ard
-  - name: ard/it/lm04.ard
-  - name: ard/sp/lm04.ard
-  - name: ard/lm04.ard
+  - name: msn/fr/LM04_MS103.bar
+  - name: msn/gr/LM04_MS103.bar
+  - name: msn/it/LM04_MS103.bar
+  - name: msn/sp/LM04_MS103.bar
+  - name: msn/LM04_MS103.bar
   source:
-  - method: areadatascript
-    name: evt
+  - method: copy
+    name: ms_m
     source:
-    - name: files/lm04evt.yml
-    type: AreaDataScript
+    - name: msn/LM04_MS103.bdx
+    type: Bdx
 - method: binarc
-  name: ard/us/lm09.ard
+  name: msn/us/LM04_MS501.bar
   multi:
-  - name: ard/fr/lm09.ard
-  - name: ard/gr/lm09.ard
-  - name: ard/it/lm09.ard
-  - name: ard/sp/lm09.ard
-  - name: ard/lm09.ard
+  - name: msn/fr/LM04_MS501.bar
+  - name: msn/gr/LM04_MS501.bar
+  - name: msn/it/LM04_MS501.bar
+  - name: msn/sp/LM04_MS501.bar
+  - name: msn/LM04_MS501.bar
   source:
-  - method: areadatascript
-    name: evt
+  - method: copy
+    name: ms_m
     source:
-    - name: files/lm09evt.yml
-    type: AreaDataScript
+    - name: msn/LM04_MS501.bdx
+    type: Bdx
+- method: binarc
+  name: msn/us/LM09_MS401.bar
+  multi:
+  - name: msn/fr/LM09_MS401.bar
+  - name: msn/gr/LM09_MS401.bar
+  - name: msn/it/LM09_MS401.bar
+  - name: msn/sp/LM09_MS401.bar
+  - name: msn/LM09_MS401.bar
+  source:
+  - method: copy
+    name: ms_m
+    source:
+    - name: msn/LM09_MS401.bdx
+    type: Bdx
